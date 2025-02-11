@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+#Menu .title{
+    text-align: center;
+}
+
+#Menu .Menu-items{
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:10px;
+    
+}
+
+#Menu .Menu-items li{
+    padding:7px 25px;
+    cursor: pointer;
+}
